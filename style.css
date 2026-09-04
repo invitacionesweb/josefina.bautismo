@@ -325,17 +325,7 @@ main p {
     outline:none;
     box-shadow:0 0 0 2px var(--color-terciario, #eacac9);
   }
-  .rsvp-form input[type="text"],
-  .rsvp-form select,
-  .rsvp-form textarea{
-    width:100%;
-    padding:10px 12px;
-    border:1px solid #ccc;
-    border-radius:6px;
-    font-family:inherit;
-    font-size:0.95rem;
-    box-sizing:border-box;
-  }
+ 
   .rsvp-form textarea{
     min-height:80px;
     resize:vertical;
@@ -358,6 +348,28 @@ main p {
     padding:20px;
   }
 
+  .rsvp-form input[type="text"],
+.rsvp-form select,
+.rsvp-form textarea{
+  width:100%;
+  padding:10px 12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-family:inherit;
+  font-size:0.95rem;
+  box-sizing:border-box;
+  background-color:var(--color-principal);
+  color:#333;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+}
+.rsvp-form select{
+  background-image:url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16'%3E%3Cpath fill='%23999' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:right 12px center;
+  padding-right:34px;
+}
 
 .end {
     background-image: url(./img/madeira1.png);
